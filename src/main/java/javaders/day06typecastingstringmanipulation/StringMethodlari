@@ -1,0 +1,28 @@
+TXT Dosyası Hakkında : İntelij içinde kod yazdığımız işler dışında yaptıklarımızı yazdığımız bir NOT kağıdı gibi düşünebilirsiniz...
+
+
+                                                STRING METHODS
+   1) toUpperCase(); : i) Tüm harfleri büyük harfe cevirir.
+                       ii) bize String Data Return eder.
+
+   2) toLowerCase(); : i)Tüm harfleri kücük harfe cevirir.
+                       ii) bize String Data Return eder.
+
+   3) charAt(0); : i) bize Datadaki ilk karakteri döndürür.
+                   ii) index ile calisir. "char" return eder.
+      charAt (); : Bir String'den belli bir index'deki characteri almak icin kullanilir.
+
+   4) length(); : i) bir datadaki karakter sayisini bize verir.
+                    ii) int bir deger dondurur.
+
+   5) substring(); : iki kullanimi vardir. Ve bu method cok kullanilir.
+                     i) substring(baslangicIndexi,bitisIndexi) baslangic ve bitis indexi verilirse baslangic indexi dahil bitis indexi harictir.
+                     Metnin ortasindan data almak icin kullaniriz.
+                     ii) substring(baslangicIndexi) String'in verilen indexten sonuna kadar alinmasini saglar.
+                     Bu Method bize String döndürür.
+
+   6) contains(); : bir data varmi ? yok mu diye bakar.
+                    Bize boolean bir deger döndürür. true oder false
+
+   7) startsWith (); : Metnin bas kisminin istenilen dizi ( 1 veya daha fazla karakter) ile eslesip eslesmedigini kontrol eder.
+                       Sonucu boolean 'dir.

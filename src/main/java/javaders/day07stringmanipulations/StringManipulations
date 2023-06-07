@@ -1,0 +1,53 @@
+                                             String Methods
+
+   9) endsWith (); : Metnin belirli bir datayla bitip bitmedigini verir. Bize boolean bir sonuc döndürür.
+                                            Tek karakterde , coklu karakterde kullanilabilir. Büyük kücük harf
+                                            duyarlidir. Tek karakterse tek tirnak ile yaz. char olarak.
+
+   10) replace (); : Metnin icerisindeki belirli bir data'nin yerine verilen diger datayi yerlestirir.
+                            Bu yüzden String bir data döndürür. String konteyner'a koyarim.
+                            ikiside cift tirnak olmalidir.
+                            String oldugu icin tek karakter yerine istersen kitap yaz.
+                            char da olur String de.
+   String s4 = s.replace('a', '*'); Konteyner String olarak kalir. Eger tek karakter degisikligi
+                             yapacaksan char olarak tek tirnak ile kullan.
+                             Parantezi tek tirnak ile char yapabilirsin.
+                             Verilen datayi siler , yaniaslinda erilen datanin yerine space yerlestirmek demektir aslinda.
+
+   11) replaceAll (); : Bir grup datayi degistirmek icin kullanilir. Bir grup datayi ifade edebilmek icin trinak
+                        icine köseli parantez yazarsin.  ( "Regular Expression" ) yani Regex kullanilir.
+
+   12) replaceFirst (); : replace () ile ayni isi yapmakla birlikte ilk gördügü datayi degistirir.
+                          icerisine tek karakter bile degistirmek istersen veya cok karakterde olsa
+                          char olmaz her zaman String yani " " icine yazmalisiniz.
+
+   13) trim (); :   Kelime anlami kiriklari aldirmak demektir. Yani daha düzenli hale gelmesi icindir.
+                          Bir String'de bastaki ve sondaki space karakterlerini siler.
+                          Ortadaki space karakterlere dokunmaz. String bir data döndürür.
+                          Kullanim sebebi kullanicinin yanlislikla bosluga basma ihtimaliyle fazla data girmis
+                          olursa onlardan kurtulmak icin yapilan bir islemdir.
+
+   14) split (); :
+
+
+
+   15) isEmpty (); : isEmpty () bosmu dolumu diye bakar
+
+
+   16) isBlank (); : methodu String bir datada space + hiclik icin true dondurur.
+                       Bos mu dolu mu oldugunu kontrol eder. boolean bir deger döndürür.
+                       isEmpty den farki variable da sadece space varsa bos mu dolu mu diye soruldugunda
+                       isBlank == BOS der.
+                       isEmoty == Bos degil der.
+
+
+   17) indexOf (); : verilen karakter veya karakterlerin ilk gorunumunun indexini verir.
+                                        int deger dondurur. Coklu data icin kullanildiginda ilk gordugu
+                                        datanin ilk karakterinin indexini verir. Olmayan bir karakterin
+                                        indexi sorulursa bize -1 dondurur. Olmayan bir datanin kacinci indexte oldugunu
+                                        sorgulatirsak bize -1 dondurur.
+
+   18) lastIndexOf(); :  Verilen String bir datada istenilen
+                                 degerin son gorunumunun indexini verir. Olmayan bir
+                                 karakter sorgulanirsa -1 dondurur
+

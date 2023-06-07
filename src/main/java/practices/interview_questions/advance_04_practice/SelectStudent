@@ -1,0 +1,26 @@
+
+      SELECT STUDENT
+
+1) Kullanicinin girdigi ogrenci sayisi kadar ogrencinin ;
+
+2) isimlerini, cinsiyetlerini, boy ve kilo bilgilerini alarak
+
+   bu bilgileri kullanarak kursa kabul edilecek ogrencileri belirleyin,
+
+
+     Kursa kabul edilecek ogrencilerin belirlenmesinde de
+
+3) Kadin ogrencilerin boyu 1.50 m'den fazla, kilosu 50 kg ile 70 kg araliginda olanlarin,
+
+4) Erkek ogrencilerin boyu 1.60 m'den fazla, kilosu 70 kg ile 90 kg araliginda olanlarin,
+
+  sartina bakildigi ve eger hicbir ogrenci bu kosullari saglamiyorsa,
+
+  "Malesef kurs gereksinimlerini karsilayan ogrenci bulunamadi"
+
+  mesajini ekrana yazdiran kodu yaziniz.
+
+
+  Bu soruyu hem Lambda (Functional Programming) ile hem de Code Block (Structured Programming) ile cozduk.
+  Arlarinda hiz farki cok yoktur. Temel amac okunabilirlik ile alakalidir. Daha karmasik code'lar icinde
+  "Funtional Programming" daha okunakli olur. Lambda Expression biraz daha hizli calisir.

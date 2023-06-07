@@ -1,0 +1,75 @@
+Stream:
+Datalari akisa sunar. Cok sayıda işlevsel metodun çağrılmasını sağlar
+
+ForEach:
+Stream içindeki veriyi tek tek tüketmek için oluşturulmuş bir yapıdır.
+**Terminal işlemi olduğundan dolayı stream artık tüketilmiş olarak kabul edilir ve
+artık kullanılamayacağı anlamına gelir.
+
+
+Filter:
+Dizimiz veya Collection'ımız üzerinde bizim belirteceğimiz koşullar doğrultusunda
+filtreleme işlemi yapmamıza yarayan bir yapıdır.
+Bu işlem sonrası belirttiğimiz koşula uygun olmayan elemanlar bir sonraki aşamada kullanılamazlar.
+Artık elimizde filtrelenmiş/süzülmüş/elenmiş bir veri vardır
+
+
+Collect:
+Collect metodu Stream türündeki nesneleri başka biçimdeki nesneye,
+veri yapısına dönüştürmek için kullanılır.
+
+
+Map :Stream içerisinde erişilen her bir eleman üzerinde işlem yapmamıza
+ve başka elemanlara dönüştürmemize imkan sağlayan
+
+
+Distinct:
+Stream içerisinde bulunan ve tekrar eden elemanlar varsa
+bunları distinct metodu ile çıkartabilir ve
+elimizde tekrar etmeyen birbirinden farklı
+elemanlar barından bir veri setimiz kalır
+
+
+Sorted:
+Bazı durumlarda elimizde ki veri setini belirli bir parametreye göre sıralamak isteyebiliriz.
+2 türü bulunmaktadır. Birinci hali parametre almaz küçükten büyüğe şekilde sıralar.
+İkinci formatı ise Comparator arayüzünden türediği için
+bizim belirlemiş olduğumuz parametreye göre sıralama işlemi yapar.
+
+
+
+reduce : indirgeme demektir.
+kullanımı; elemanları teker teker işler. Bir önceki adımda elde edilen sonuç,
+bir sonraki elemanla işlemle tutulur
+
+
+Match operasyonu bir akışın belirli kriterleri sağlayıp sağlamadığını ölçmek için kullanılır.
+Map den farkı her iterasyonu tek tek değerlendirip sonucu yansıtmaz bunun yerine tüm koleksiyonu
+değerlendirerek sonucu yansıtmasıdır. Match operasyonunun 3 çeşit kullanımı bulunmaktadır;
+
+    AnyMath: Vereceğimiz şarta bağlı olarak Stream içerisinde gezinir ve
+    herhangi bir elemanla eşleşme durumunda true dönecektir.
+
+
+    AllMatch: Verilen şarta göre Stream içerisindeki tüm elemanların
+    bu şarta uyması durumunda true dönecektir.
+
+
+    NoneMatch: Şarta göre Stream içindeki hiç bir
+    elemanın şartı sağlamaması durumunda true dönecektir.
+
+
+
+Comparator => bir Class'tır. Compar karşılaştırmak demektir.
+Bazı nesneler koleksiyonuna toplam sıralama uygulayan bir karşılaştırma işlevi.
+Karşılaştırıcılar, sıralama düzeni üzerinde hassas kontrol sağlamak için bir
+sıralama yöntemine (Collections.sort veya Arrays.sort gibi) aktarılabilir.
+Karşılaştırıcılar, belirli veri yapılarının (sıralı kümeler veya sıralı haritalar gibi)
+sırasını kontrol etmek veya doğal sıralaması olmayan
+nesnelerin koleksiyonları için bir sıralama sağlamak için de kullanılabilir.
+
+reverseOrder() => Comparator Class'ının bir methodudur.tersten siralama yapar.
+Doğal sıralamanın tersini (büyükten küçüğe) uygulayan bir Comparator (karşılaştırıcı) döndürür.
+comparing() => karşılaştırma demektir.
+reversed() => Bu karşılaştırıcının (comparator) ters sıralanmasını
+uygulayan bir karşılaştırıcı (comparator) döndürür.

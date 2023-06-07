@@ -1,0 +1,46 @@
+  Limit
+    Elimizde var olan bir veri kaynağını, göstermek istediğimiz kadarını
+    göstermemize yarayan,sınırlandıran bir metoddur. Parametre olarak
+    vereceğimiz rakamla aslında Stream içerisinde dönen çok sayıda veri
+    var ancak sen bize şu kadarını göster diyoruz.
+
+    findFirst() =>
+     İlk elemanı verir. Optional return eder.
+
+    split()=>
+    Bu String öğesini verilen normal ifadenin eşleşmelerine böler.
+
+    Comparator =>
+     bir Class’tır. Compar karşılaştırmak demektir.
+    Bazı nesneler koleksiyonuna toplam sıralama uygulayan bir karşılaştırma
+    işlevi.Karşılaştırıcılar, sıralama düzeni üzerinde hassas kontrol
+    sağlamak için bir sıralama yöntemine (Collections.sort veya Arrays.sort
+    gibi) aktarılabilir.Karşılaştırıcılar, belirli veri yapılarının
+    (sıralı kümeler veya sıralı haritalar gibi) sırasını kontrol etmek veya
+    doğal sıralaması olmayan nesnelerin koleksiyonları için bir sıralama
+    sağlamak için de kullanılabilir.
+
+    reverseOrder() =>
+    Comparator Class’ının bir methodudur.
+    Doğal sıralamanın tersini (büyükten küçüğe) uygulayan bir Comparator
+    (karşılaştırıcı) döndürür.
+
+    comparing() =>
+     karşılaştırma demektir.
+
+    reversed() =>
+    Bu karşılaştırıcının (comparator) ters sıralanmasını
+    uygulayan bir karşılaştırıcı (comparator) döndürür.
+
+    skip(n) =>
+    atlama demek. Akışın ilk n elemanını attıktan sonra bu
+    akışın kalan elemanlarından oluşan bir akış döndürür.
+    Bu akış n'den daha az öğe içeriyorsa, boş bir akış döndürülür.
+    Bu, durum bilgisi olan bir ara işlemdir.
+
+    skip(list.size()-1) =>
+    List’in uzunluğunun 1 eksiğini yazarsak son
+    elemanı yazdırırız.
+
+    orElse(); == >
+    null döndürür. Olmayan biseyi isteme ihtimaline karsi bizi Exception'dan kurtarir. !!!!!
